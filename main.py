@@ -21,7 +21,6 @@ def recognize_faces(image):
 def main():
     cap = cv2.VideoCapture(0)
     while True:
-        # Video akışından bir çerçeve alınması
         ret, frame = cap.read()
 
         if not ret:
